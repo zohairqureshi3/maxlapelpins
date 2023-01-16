@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="{{ app()->getLocale() }}">
+<head>
+    <title>MAXLAPELPINS</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="token">
+    <meta http-equiv="content-language" content="en">
+    <link rel="stylesheet" href="assets/ui.css">
+    <link rel="stylesheet" href="assets/shop.css">
+    <link rel="icon" sizes="16x16" href="favicon" />
+    <link rel="icon" sizes="16x16" href="favicon" />
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/maxlap.css">
+</head>
+<body>
+    <div id="app">
+        <header id="header">
+            <div class="header-top">
+                <div class="container-fluid custom-container">
+                    <div class="top-header-wrapper">
+                        <div class="row">
+                            <div class="col-md-6 header-logo">
+                                <a href="index.html">
+                                    <img src="assets/images/headerlogo.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-6 shipping-order">
+                                <div class="free-shipping-payment col-md-6">
+                                    <img src="assets/images/img01.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="order-help col-md-6">
+                                    <div class="order-number">
+                                        <img src="assets/images/phone.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="live-chat">
+                                        <img src="assets/images/livechat.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="free-quote">
+                                        <img src="assets/images/freequote.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light header-navbar">
+                <div class="container-fluid custom-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Free Quote</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Order Online</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Photo Gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">BLOG</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main">
+            <section id="slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner custom-container">
+                        <div class="carousel-item active">
+                          <img src="assets/images/sliderimg01.png" class="img-fluid" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/sliderimg01.png" class="img-fluid" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/sliderimg01.png" class="img-fluid" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/sliderimg01.png" class="img-fluid" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="assets/images/sliderimg01.png" class="img-fluid" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <div class="slider-tabs">
+                        <div class="custom-container">
+                            <ol class="carousel-indicators slider-indi">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">LAPEL PINS</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1">TRADING PINS</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2">CHALLENGE CIONS</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3">BADGES</li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4">LANYARDS</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="main-body-content">
+                <div class="container-fluid custom-container">
+                    <div class="row top-container-row">
+                        <div class="col-md-3 design-payments-container">
+                            <div id="design-payments">
+                                <div class="row">
+                                    <div class="artwork col-6 col-sm-6 col-md-12">
+                                        <img src="assets/images/img02.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="free-shipping col-6 col-sm-6 col-md-12">
+                                        <img src="assets/images/freeshipping.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="paypal col-6 col-sm-6 col-md-12">
+                                        <img src="assets/images/paypal.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="social-links col-6 col-sm-6 col-md-12">
+                                        <ul class="social-link-list d-flex">
+                                            <li><a href="#"><img src="assets/images/twitter.png" class="img-fluid" alt=""></a></li>
+                                            <li><a href="#"><img src="assets/images/gmailplus.png" class="img-fluid" alt=""></a></li>
+                                            <li><a href="#"><img src="assets/images/youtube.png" class="img-fluid" alt=""></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-9 welcomr-bar-container">
+                            <div class="welcomr-bar">
+                                <h2 class="page-title">Welcome to <span>MAX Lapel Pins</span></h2>
+                            </div>
+                            <div class="row body-wrapper">
+                                <div class="col-md-9 col-sm-9 body-wrapper-col--9">
+                                    <div class="row">
+                                        <div class="col-md-4 triangle-col-row col-sm-4">
+                                            <!-- <div class="triangle-img">
+                                                <img class="img-fluid" src="assets/images/triangle.svg" alt="">
+                                            </div> -->
+                                            <div class="triangle-body">
+                                                <div class="body-img"><img class="img-fluid" src="assets/images/device.png" alt=""></div>
+                                                <h4>Upload Your Design Ideas or Ask Us to Design for You</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 triangle-col-row col-sm-4">
+                                            <!-- <div class="triangle-img">
+                                                <img class="img-fluid" src="assets/images/triangle.svg" alt="">
+                                            </div> -->
+                                            <div class="triangle-body">
+                                                <div class="body-img"><img class="img-fluid" src="assets/images/pot.png" alt=""></div>
+                                                <h4>Get Free Artwork / Design & Price Quote</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 triangle-col-row col-sm-4">
+                                            <!-- <div class="triangle-img">
+                                                <img class="img-fluid" src="assets/images/triangle.svg" alt="">
+                                            </div> -->
+                                            <div class="triangle-body">
+                                                <div class="body-img"><img class="img-fluid" src="assets/images/stamp.png" alt=""></div>
+                                                <h4>Approve Your Artwork and Get Your Lapel Pins Fast</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="paragraph-text">
+                                        <p>Great Quality, Exciting Styles, Quick Delivery and Reasonable Pricing are what we Known for!</p>
+                                        <p>Max Lapel Pins helps you create professional looking and versatile custom pins, flag pins, promo pins, baseball and softball trading pins, patriotic pins and employee recognition pins at very reasonable prices.</p>
+                                        <p>Custom Lapel Pins have become a popular choice for product branding, employee recognition, promoting events or products and to support a baseball or other team. Lapel Pins have become a must for tradeshow events and other branding reinforcement activities. Those looking for highly versatile and professional looking custom pins, trading pins will find our services quite according to their needs.</p>
+                                        <p>At Max Lapel Pins, we assist you in creating your own customized pins. We have the best sales representatives and graphic artists who help you every step of the way. Our mission is to help every customer reach their creative potential in designing cheap lapel pins exactly as they envisioned them regardless of the time and effort it will take. At Max Pins we realize the customer is the best judge of their own product. Just make a phone call, fax or email us and start creating your own custom pins.</p>
+                                        <p>Order for your custom design lapel pins or challenge coins now! It is convenient, fast and easy. All you have to do is fill out the form by clicking the ORDER NOW link. Shortly after receiving the form, our graphic artists will create an image of the pins or coins or badges and then be in contact with you for confirmation. Upon receiving your confirmation, we begin the process of creating the pins and then, after the completion of the pins, we ship them out to you right away.</p>
+                                    </div>
+                                    <div class="free-quote-img">
+                                        <a href="#"> <img src="assets/images/buttonimg.png" class="img-fluid" alt=""> </a>
+                                    </div>
+                                    <div class="coins">
+                                        <img src="assets/images/coins.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 body-wrapper-col--3">
+                                    <div class="side-bar-img">
+                                        <img src="assets/images/img03.png" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="container-fluid custom-container">
+                <div class="footer-bg-color">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="footer--list">
+                                <h4>CONTACTS</h4>
+                                <div class="contact-data d-flex">
+                                    <div class="contact-heading">
+                                        <h5>Telephone:</h5>
+                                        <h5>Fax Number:</h5>
+                                        <h5>E-Mail:</h5>
+                                        <h5>Address:</h5>
+                                    </div>
+                                    <div class="contact-info">
+                                        <h5>1.800.746.3293</h5>
+                                        <h5>1.888.786.1916</h5>
+                                        <h5>sales@maxlapelpins.com</h5>
+                                        <h5>Front Row Marketing, Inc. 4142 Ogletown Stanton Road Unit # 555 Newark, DE 19713.</h5>
+                                    </div>
+                                </div>
+                                <div class="foot_logo"><a href="#"><img src="assets/images/footerlogo.png" class="img-fluid"></a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col-md-4 footer--list col-sm-4 col-6">
+                                    <h4>COMPANY INFO</h4>
+                                    <ul class="nav nav-pills ul-footer--list">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" href="#">Privacy Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Shipping Policy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Terms & Conditions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Payment Options</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sitemap</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 footer--list col-sm-4 col-6">
+                                    <h4>LAPEL PINS</h4>
+                                    <ul class="nav nav-pills ul-footer--list">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" href="#">Lapel Pins Styles</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Lapel Pin Bags</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Customer Service</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Edge Cuts</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Other Products</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Testimonials</a>
+                                        </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link" href="#">Lapel Pins Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 footer--list col-sm-4 col-6">
+                                    <h4><a href="">ARTICLES</a></h4>
+                                    <ul class="nav nav-pills ul-footer--list">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" href="#">Lapel Pins Articles</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Baseball Trading Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Wholesale Lapel Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Reward Lapel Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Recognition Lapel Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Flag Lapel Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Sports and Trading Pins</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Trading Lapel Pins</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>						
+                    <div class="footer_row">
+                        <address>
+                            © 2011 MAX Lapel Pins. All Rights Reserved. All Photos and Materials are original works and not for duplication or distribution. 
+                        </address>
+                    </div>
+                </div>
+                <div class="profiler">
+                    <h5>[profiler]</h5>
+                </div>
+            </div>
+            <div class="memory-usage">
+                <h6>Memory usage: real: 17563648, emalloc: 17357680</h6>
+                <h5>Code Profiler Time Cnt Emalloc RealMem</h5>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="assets/shop.js"></script>
+    <script type="text/javascript" src="assets/ui.js"></script>
+    <script type="text/javascript" src="assets/maxlap.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+</body>
+</html>
